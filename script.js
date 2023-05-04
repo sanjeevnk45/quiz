@@ -29,7 +29,7 @@ var questions = [{
   });
   document.getElementById("riimage002").addEventListener('click', function(event) {
     fnCheck("riimage002", this);
-  }); 
+  });
 
   document.getElementById("riimage003").addEventListener('click', function(event) {
     fnCheck("riimage003", this);
@@ -58,7 +58,7 @@ function fnNext() {
   } else {
     document.getElementById('rinextquestion').classList.add('rihide');
     document.getElementById('riquestionbox').classList.add('rihide');
-    document.getElementById('rireset').classList.remove('rihide');  
+    document.getElementById('rireset').classList.remove('rihide');
   }
   document.getElementById('riquestionresponse').classList.add('rihide');
   document.getElementById('riquestiontext').innerHTML = questions[currentquestion].question;
