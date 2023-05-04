@@ -2,7 +2,7 @@
 // note: arrays are zero based. That means array [0] is the first one
 var currentquestion = 0;
 var questions = [{
-  "question": "Who sang 'Fireworks'?",
+  "question": "slect c programming'?",
   "response": "Katy Perry",
   "answerimage": 'riimage002'
 }, {
@@ -15,7 +15,8 @@ var questions = [{
   "answerimage": 'riimage003'
 }];
 
-(function() {
+(  window.onload = function() {
+  // your code here
   // your page initialization code here
   fnReset(); //call reset on document ready
 
@@ -78,3 +79,4 @@ function fnCheck(answerimage, obj) {
   }
   document.getElementById('riquestionresponse').classList.remove('rihide');
 }
+
